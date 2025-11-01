@@ -1,0 +1,98 @@
+# ========================================
+# 🔹 Node & Build Outputs
+# ========================================
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+.tmp/
+vite.config.ts.timestamp*
+vite.config.js.timestamp*
+
+# ========================================
+# 🔹 Environment Variables (Sensitive)
+# ========================================
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# ========================================
+# 🔹 Logs & Diagnostics
+# ========================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log
+*.log
+
+# ========================================
+# 🔹 IDE / Editor Settings
+# ========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# ========================================
+# 🔹 OS / System Files
+# ========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+*.Spotlight-V100
+*.Trashes
+*.DocumentRevisions-V100
+
+# ========================================
+# 🔹 Testing / Coverage
+# ========================================
+coverage/
+*.lcov
+__tests__/
+__mocks__/
+test-results/
+
+# ========================================
+# 🔹 Dependency Managers
+# ========================================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ========================================
+# 🔹 Miscellaneous / Temporary
+# ========================================
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.bak
+*.tmp
+*.orig
+*.swp
+*.swo
+
+# ========================================
+# 🔹 Auth0 / API Configs
+# ========================================
+auth_config.json
+auth0-keys.json
+
+# ========================================
+# 🔹 Local Assets / Generated Icons
+# ========================================
+public/*.svg
+public/*.ico
+public/*.png
